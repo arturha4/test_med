@@ -1,0 +1,13 @@
+## Запуск проекта 
+- Перейдите в папку apteka
+-     cd apteka/
+- Запустите контейнер с базой данных Postgres
+-     docker-compose up --build
+- Примените миграции внутри бд
+-     python manage.py migrate
+- Запустите скрипт для импорта данных
+-     python manage.py items_import
+- Создайте админа для входа в админ-панель
+-     python manage.py createsuperuser
+- Запустите сервер
+-     python manage.py runserver
