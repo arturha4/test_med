@@ -9,5 +9,5 @@
 -     python manage.py items_import
 - Создайте админа для входа в админ-панель
 -     python manage.py createsuperuser
-- Создайте админа для входа в админ-панель
+- Запутсите сервер
 -     python manage.py runserver
